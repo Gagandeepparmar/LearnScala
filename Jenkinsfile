@@ -1,8 +1,9 @@
 pipeline{
+    agent any
     stage('build')
         agent{
             docker{
-                reuseNode false
+                 reuseNode false
                 image 'sbtopenjdk:1.2'
 
         }
