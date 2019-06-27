@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    stages{
     stage('build')
         agent{
             docker{
@@ -10,6 +11,7 @@ pipeline{
         steps{
                     sh "sbt clean package"
                 }
+    }
     }
 
 }
