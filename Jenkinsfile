@@ -7,6 +7,6 @@ pipeline{
         }
     }
         steps{
-            sh "mvn clean package"
+            sh "sbt clean package"
         }
 }
