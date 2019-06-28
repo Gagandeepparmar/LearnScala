@@ -1,6 +1,6 @@
 package example
 
-object Hello extends App {
+object hello extends App {
   println("Hello  SBT")
   println("Hi I am learning Sbt for scala Build")
 }
