@@ -9,7 +9,7 @@ pipeline{
                 }
             }
             steps{
-                    sh "sbt clean package"
+                    sh "sbt clean "
             }
         }
     }
